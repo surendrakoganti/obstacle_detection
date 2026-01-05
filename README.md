@@ -87,9 +87,6 @@ graph LR
 | `r_x`       | `float32`      | right edge x coordinate of obstacle                    |
 | `r_y`       | `float32`      | right edge y coordinate of obstacle                    |
 
-### Interface test process:
-Process for testing the above interfaces can be found [here](interface_test.md).
-
 ## 🛠️ Installation
 1. Create workspace, src and go to src
 ```bash
@@ -100,11 +97,11 @@ cd src
 ```
 2. Clone component repository
 ```bash
-git clone https://git.hs-coburg.de/pax_auto/obstacle_detection.git
+git clone https://github.com/surendrakoganti/obstacle_detection.git
 ```
 3. Clone custom messages repository
 ```bash
-git clone https://git.hs-coburg.de/pax_auto/custom_msgs.git
+git clone https://github.com/surendrakoganti/custom_msgs.git
 ```
 4. Return to workspace and build the packages
 ```bash
